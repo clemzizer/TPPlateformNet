@@ -38,3 +38,25 @@ C:\Users\Clément Voisin\Documents\Net TP\MyAirport.Pim\Client.FormIhm\obj\Debug
 C:\Users\Clément Voisin\Documents\Net TP\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.exe
 C:\Users\Clément Voisin\Documents\Net TP\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.pdb
 Z:\cvoisin On My Mac\Dropbox\Ing5\Plateform Net\Net TP\MyAirport.Pim\Client.FormIhm\obj\Debug\MyAiport.Pim.Client.BagageSelect.resources
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\Client.FormIhm\bin\Debug\Client.FormIhm.exe.config
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\Client.FormIhm\bin\Debug\Client.FormIhm.exe
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\Client.FormIhm\bin\Debug\Client.FormIhm.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\Client.FormIhm\obj\Debug\MyAiport.Pim.Client.BagageSelect.resources
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\Client.FormIhm\obj\Debug\MyAirport.Pim.Client.FormIhm.resources
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.Properties.Resources.resources
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.csproj.GenerateResource.cache
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.exe
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\Client.FormIhm\bin\Debug\Client.FormIhm.exe.config
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\Client.FormIhm\bin\Debug\Client.FormIhm.exe
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\Client.FormIhm\bin\Debug\Client.FormIhm.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\Client.FormIhm\obj\Debug\MyAiport.Pim.Client.BagageSelect.resources
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\Client.FormIhm\obj\Debug\MyAirport.Pim.Client.FormIhm.resources
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.Properties.Resources.resources
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.csproj.GenerateResource.cache
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.exe
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\Client.FormIhm\obj\Debug\Client.FormIhm.pdb

@@ -1,16 +1,12 @@
 ﻿using Client.FormIhm.ServiceBagageReferencePim;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MyAiport.Pim.Client
 {
+    /// <summary>
+    /// This class manages bagage selection
+    /// </summary>
     public partial class BagageSelect : Form
     {
         
@@ -36,6 +32,19 @@ namespace MyAiport.Pim.Client
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Bagage = (BagageDefinition)listBox1.SelectedItem;
+        }
+
+
+
+
+        private void ButtonOk_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonCancel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

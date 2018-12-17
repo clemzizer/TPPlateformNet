@@ -1,23 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.ServiceModel;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
 
 namespace MyAirport.Pim.ServiceHost
 
-
+    
 {
     public partial class Form1 : Form 
     {
-        
+        /// <summary>
+        /// This class manages the bagage selection using the state variable host_State
+        /// to manage the interface in a centralized way.
+        /// </summary>
         public Form1()
         {
             InitializeComponent();
@@ -71,11 +67,16 @@ namespace MyAirport.Pim.ServiceHost
         {
             host = new System.ServiceModel.ServiceHost(typeof(MyAirport.Pim.Service.ServicePim));
 
+
             host.Closed += host_State;
             host.Closing += host_State;
             host.Faulted += host_State;
             host.Opened += host_State;
             host.Opening += host_State;
+
+            ////Ugly I know but easy
+            this.textBox1.Text = "Created";
+     
         }
     }
 }

@@ -43,6 +43,7 @@
             this.ButtonOk.TabIndex = 0;
             this.ButtonOk.Text = "Ok";
             this.ButtonOk.UseVisualStyleBackColor = true;
+            this.ButtonOk.Click += new System.EventHandler(this.ButtonOk_Click);
             // 
             // buttonCancel
             // 
@@ -52,6 +53,7 @@
             this.buttonCancel.TabIndex = 1;
             this.buttonCancel.Text = "Cancel";
             this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.Click += new System.EventHandler(this.buttonCancel_Click);
             // 
             // contextMenuStrip1
             // 
@@ -63,9 +65,9 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 25;
-            this.listBox1.Location = new System.Drawing.Point(190, 66);
+            this.listBox1.Location = new System.Drawing.Point(12, 66);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(411, 154);
+            this.listBox1.Size = new System.Drawing.Size(776, 154);
             this.listBox1.TabIndex = 4;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 

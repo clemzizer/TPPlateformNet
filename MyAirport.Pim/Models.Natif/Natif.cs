@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
+/// <summary>
+/// Model created to test our code. Never implemented
+/// Runs if App.config has a string saying model is natif or if it is not configured (default choice in Models.Factory)
+/// </summary>
 namespace MyAirport.Pim.Models
 {
     public class Natif : AbstractDefinition

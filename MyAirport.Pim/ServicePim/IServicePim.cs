@@ -1,13 +1,15 @@
 ﻿using MyAirport.Pim.Entities;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
-using System.Text;
+
 
 namespace MyAirport.Pim.Service
 {
+    /// <summary>
+    /// This interface allows us to define what will be exposed by the service
+    /// (Les attributs OperationContract sont utilisés par WCF pour connaitre les méthodes qui devront être exposées par le service. L’attribut ServiceContract permet à WCF de savoir que cette interface expose des méthodes de service. L’ensemble des classes nécessaires à WCF sont regroupées dans l’assembly System.ServiceModel.)
+    /// </summary>
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract]
     public interface IServicePim

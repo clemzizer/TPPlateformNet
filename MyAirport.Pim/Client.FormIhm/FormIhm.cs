@@ -6,6 +6,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -19,10 +20,9 @@ namespace MyAirport.Pim.Client
 
         private BagageSelect SelectBag = null;
 
-        private PimState state = PimState.Deconnecter;
-        //private List<Entities.BagageDefinition> bags = new List<Entities.BagageDefinition>();
+        private PimState state = PimState.CreationBagage;
         private BagageDefinition[] bags = new BagageDefinition[] { };
-        //public List<BagageDefinition> bagages = new List<BagageDefinition>();
+
 
         public PimState State
         {
@@ -31,21 +31,41 @@ namespace MyAirport.Pim.Client
         }
 
         ServicePimClient proxy = null;
-        
+
         public FormIhm()
         {
             InitializeComponent();
             PimStateChanged += FormIhm_PimStateChanged;
-            OnPimStateChanged(PimState.Deconnecter, true);
+            OnPimStateChanged(PimState.CreationBagage, true); //On commece à l'état Création Bagage et non pas déconnecter.
             proxy = new ServicePimClient();
-            //+= aj la fonction il la crée automatiquement en plus !!
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            //State = PimState.CreationBagage;
-            //bags = Factory.Model.GetBagage(this.comboBox1.Text);
-            bags = proxy.GetBagageByCodeIata(this.comboBox1.Text);
+            try
+            {
+                bags = proxy.GetBagageByCodeIata(this.comboBox1.Text);
+            }
+            catch (FaultException excp)
+            {
+                this.listBoxLogs.Items.Add("Une erreur s'est produite dans le traitement de votre demande");
+                this.listBoxLogs.Items.Add("\tCode: " + excp.Code.Name);
+                this.listBoxLogs.Items.Add("\tReason: " + excp.Reason);
+
+            }
+            catch (CommunicationException excp)
+            {
+                this.listBoxLogs.Items.Add("Une erreur de communication c'est produite dans le traitement de votre demande");
+                this.listBoxLogs.Items.Add("\tType: " + excp.GetType().ToString());
+                this.listBoxLogs.Items.Add("\tMessage: " + excp.Message);
+            }
+            catch (Exception excp)
+            {
+                this.listBoxLogs.Items.Add("Une erreur s'est produite dans le traitement de votre demande");
+                this.listBoxLogs.Items.Add("\tType: " + excp.GetType().ToString());
+                this.listBoxLogs.Items.Add("\tMessage: " + excp.Message);
+            }
+           
 
             //bags.Count devient bags.Length
             if (bags.Length == 0)
@@ -64,6 +84,7 @@ namespace MyAirport.Pim.Client
 
         private void FormIhm_PimStateChanged(object sender, PimState state)
         {
+            //Pour que ça fasse plus propre, On passe par un système d'état et les actions ne sont pas directement implémentés dans les méthodes appelés par les actions utilisateur sur l'IHM
             switch (state)
             {
                 case PimState.Deconnecter:
@@ -71,7 +92,6 @@ namespace MyAirport.Pim.Client
                     break;
                 case PimState.SelectionBagage:
                     SelectionBagage();
-                    //selectionBagageToolStripMenuItem_Click(null, null);
                     break;
                 case PimState.CreationBagage:
                     creationBagageToolStripMenuItem_Click(null, null);
@@ -84,10 +104,10 @@ namespace MyAirport.Pim.Client
                     break;
 
             }
-                
+
         }
 
-        private void OnPimStateChanged(PimState newState, bool force=false)
+        private void OnPimStateChanged(PimState newState, bool force = false)
         {
             if (newState != this.state || force)
             {
@@ -98,25 +118,27 @@ namespace MyAirport.Pim.Client
                 }
             }
         }
-       
+
 
         private void deconnecterToolStripMenuItem_Click(object sender, EventArgs e)
         {
             State = PimState.Deconnecter;
-        
+
         }
 
         private void attenteBagageToolStripMenuItem_Click(object sender, EventArgs e)
         {
             State = PimState.AttenteBagage;
         }
-    
 
-       
-        private void Deconnecter(){
-            //this.GB_RECHERCHE.Visible = false;
-            //this.GB_RESULTAT.Visible = false;
-            
+
+        //on grise l'écran
+        private void Deconnecter()
+        {
+
+            this.GB_RECHERCHE.Visible = false;
+            this.GB_RESULTAT.Visible = false;
+
         }
         private void AfficherBagage()
         {
@@ -132,15 +154,16 @@ namespace MyAirport.Pim.Client
 
             if (bags.Length == 1)
             {
-                this.button1.Visible = true;
+                this.buttonRechercher.Visible = true;
 
                 this.textboxCompanie.Text = bags[0].CodeIata;
                 this.textBoxJour.Text = bags[0].DateVol.ToLongDateString();
-                this.textboxLigne.Text= bags[0].Ligne;
+                this.textboxLigne.Text = bags[0].Ligne;
             }
         }
 
-        private void AttenteBagage(){
+        private void AttenteBagage()
+        {
 
             this.GB_RECHERCHE.Visible = true;
             this.GB_RECHERCHE.Enabled = true;
@@ -151,15 +174,15 @@ namespace MyAirport.Pim.Client
             this.GB_BAGAGE.Visible = true;
             this.GB_BAGAGE.Enabled = false;
 
-            this.button1.Visible = true;
+            this.buttonRechercher.Visible = true;
 
 
             this.comboBox1.Text = " ";
             this.textboxCompanie.Text = " ";
             this.textBoxJour.Text = " ";
-            this.textboxLigne.Text = " ";   
-       
-          }
+            this.textboxLigne.Text = " ";
+
+        }
         private void SelectionBagage()
         {
             this.GB_RECHERCHE.Visible = true;
@@ -178,15 +201,16 @@ namespace MyAirport.Pim.Client
 
             if (this.SelectBag == null) this.SelectBag = new BagageSelect();
             SelectBag.ListBagages = bags;
-            if (this.SelectBag.ShowDialog() == DialogResult.OK){
+            if (this.SelectBag.ShowDialog() == DialogResult.OK)
+            {
                 bags = new BagageDefinition[] { SelectBag.Bagage };
                 this.State = PimState.AffichageBagage;
             }
             this.SelectBag.Show();
         }
-   
-          
-      
+
+
+
         private void selectionBagageToolStripMenuItem_Click(object sender, EventArgs e)
         {
             State = PimState.SelectionBagage;
@@ -215,7 +239,7 @@ namespace MyAirport.Pim.Client
 
         private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-            
+
         }
     }
 }

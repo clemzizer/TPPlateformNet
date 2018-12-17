@@ -34,3 +34,39 @@ C:\Users\Clément Voisin\Documents\Net TP\MyAirport.Pim\ServicePim\obj\Debug\Ser
 C:\Users\Clément Voisin\Documents\Net TP\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.csproj.CopyComplete
 C:\Users\Clément Voisin\Documents\Net TP\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.dll
 C:\Users\Clément Voisin\Documents\Net TP\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\ServicePim.dll.config
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\ServicePim.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\ServicePim.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\Entities.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\Models.AbstractDefinition.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\Models.Factory.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\Models.sql.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\Models.Natif.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\Entities.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\Models.AbstractDefinition.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\Models.Factory.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\Models.sql.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\bin\Debug\Models.Natif.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.csproj.CopyComplete
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\ServicePim.dll.config
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\ServicePim.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\ServicePim.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\Entities.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\Models.AbstractDefinition.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\Models.Factory.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\Models.sql.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\Models.Natif.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\Entities.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\Models.AbstractDefinition.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\Models.Factory.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\Models.sql.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\bin\Debug\Models.Natif.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.csproj.CopyComplete
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServicePim\obj\Debug\ServicePim.pdb

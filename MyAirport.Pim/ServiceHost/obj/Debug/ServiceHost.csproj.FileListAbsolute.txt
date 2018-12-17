@@ -22,3 +22,51 @@ C:\Users\Clément Voisin\Documents\Net TP\MyAirport.Pim\ServiceHost\obj\Debug\Se
 C:\Users\Clément Voisin\Documents\Net TP\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.exe
 C:\Users\Clément Voisin\Documents\Net TP\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.pdb
 C:\Users\Clément Voisin\Documents\Net TP\MyAirport.Pim\ServiceHost\obj\Debug\MyAirport.Pim.ServiceHost.Form1.resources
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\ServiceHost.exe.config
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\ServiceHost.exe
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\ServiceHost.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\ServicePim.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\Entities.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\Models.Factory.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\Models.AbstractDefinition.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\Models.sql.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\Models.Natif.dll
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\ServicePim.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\ServicePim.dll.config
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\Entities.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\Models.Factory.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\Models.AbstractDefinition.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\Models.sql.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\bin\Debug\Models.Natif.pdb
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\obj\Debug\MyAirport.Pim.ServiceHost.Form1.resources
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.Properties.Resources.resources
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.csproj.GenerateResource.cache
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.csproj.CopyComplete
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.exe
+\\vmware-host\Shared Folders\Desktop\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\ServiceHost.exe.config
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\ServiceHost.exe
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\ServiceHost.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\ServicePim.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\Entities.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\Models.Factory.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\Models.AbstractDefinition.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\Models.sql.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\Models.Natif.dll
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\ServicePim.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\ServicePim.dll.config
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\Entities.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\Models.Factory.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\Models.AbstractDefinition.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\Models.sql.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\bin\Debug\Models.Natif.pdb
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\obj\Debug\MyAirport.Pim.ServiceHost.Form1.resources
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.Properties.Resources.resources
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.csproj.GenerateResource.cache
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.csproj.CopyComplete
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.exe
+\\vmware-host\Shared Folders\Desktop\Net TP\MyAirport.Pim\ServiceHost\obj\Debug\ServiceHost.pdb

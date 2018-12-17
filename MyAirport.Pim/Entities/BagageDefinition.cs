@@ -7,22 +7,23 @@ using System.Threading.Tasks;
 
 namespace MyAirport.Pim.Entities
 {
-    /// Définition d'un object bagage
+    /// <summary>
+    /// Definition d'un objet baguage
+    /// Notre service expose des méthodes qui exploitent des objets BagageDefinition, il convient donc d’indiquer à WCF comment Sérialiser ces objets avec DataContract et DataMember
     /// </summary>
-    /// 
     [DataContract]
     sealed public class BagageDefinition
     {
         [DataMember]
-        public int IdBagage { get; set; }               // Identifiant bagage en base de données permet l'identification unique d'un bagage
-                                                        //ID_BAGAGE
+        public int IdBagage { get; set; }           // Identifiant bagage en base de données permet l'identification unique d'un bagage
+                                                    //ID_BAGAGE
         [DataMember]
         public string CodeIata { get; set; }        // Numéro du bagage présent sur l'étiquette
         //CODE_IATA
 
         [DataMember] 
-        public string Compagnie { get; set; }        // Code Iata de la compagnie aerienne sur 2 lettres
-                                                     //COMPAGNIE
+        public string Compagnie { get; set; }       // Code Iata de la compagnie aerienne sur 2 lettres
+                                                    //COMPAGNIE
         [DataMember]
         public string Ligne { get; set; }           // Numéro de vol 3 ou 4 digits et parfois une lettre a la fin
                                                     //LIGNE

@@ -9,19 +9,17 @@ using MyAirport.Pim.Entities;
 
 namespace MyAirport.Pim.Models
 {
+    /// <summary>
+    /// Cette classe permet de se connecter à notre base de données SQLExpress ainsi que de faire une requete pour 1 bagage (returns 1 BagageDefinition) ou plusieurs bagages (returns List<BagageDefinition>)
+    /// </summary>
     public class Sql : AbstractDefinition
     {
+        /// <summary>
+        /// Connection à la BDD récupération de la string MyAirport.Pim.DbConnect dans le fichier App.config de l'executable en cours d'execution: en l'occurence ServiceHost
+        /// </summary>
+        string strCnx = ConfigurationManager.ConnectionStrings["MyAirport.Pim.DbConnect"].ConnectionString;
 
-        //string CodeIata:"18536;Drop table BAGAGE"; ok si on utilisa @CodeIata dans la commande
-        //PAS DE CONCAT PLS +...+ JAMAIS où 0 
-        //"SELECT b.ID_BAGAGE, b.CODE_IATA, b.COMPAGNIE, b.LIGNE, b.DATE_CREATION, b.ESCALE, b.CLASSE, b.CONTINUATION, cast(iif(bp.PARTICULARITE is null, 0, 1) as bit) as 'RUSH' FROM BAGAGE b " + "…";
-        // si jointure null => renvoi 0 sinon 1 mais ce sont des int on cast donc pour convertir en booleen
-
-        string strCnx = ConfigurationManager.ConnectionStrings["MyAirport.Pim.Settings.DbConnect"].ConnectionString;
-        string commandGetBagageId = "SELECT b.ID_BAGAGE, b.CODE_IATA, b.COMPAGNIE, b.LIGNE, b.DATE_CREATION, b.ESCALE, b.CLASSE, b.CONTINUATION"
-            + ", cast(iif(bp.ID_PARTICULARITE is null, 0, 1) as bit) as 'RUSH'"
-            + " FROM BAGAGE b left outer join BAGAGE_A_POUR_PARTICULARITE bp on bp.ID_BAGAGE=b.ID_BAGAGE and bp.ID_PARTICULARITE= 15 WHERE b.ID_BAGAGE=@id";
-
+   
         string commandGetBagageIata = "SELECT b.ID_BAGAGE, b.CODE_IATA, b.COMPAGNIE, b.LIGNE, b.DATE_CREATION, b.ESCALE, b.CLASSE, b.CONTINUATION"
           + ", cast(iif(bp.ID_PARTICULARITE is null, 0, 1) as bit) as 'RUSH'"
           + " FROM BAGAGE b left outer join BAGAGE_A_POUR_PARTICULARITE bp on bp.ID_BAGAGE=b.ID_BAGAGE and bp.ID_PARTICULARITE= 15 WHERE b.CODE_IATA=@code_iata";
@@ -83,3 +81,13 @@ namespace MyAirport.Pim.Models
         }
     }
 }
+
+
+
+//string CodeIata:"18536;Drop table BAGAGE"; ok si on utilisa @CodeIata dans la commande
+//PAS DE CONCAT PLS +...+ JAMAIS où 0 
+
+//"SELECT b.ID_BAGAGE, b.CODE_IATA, b.COMPAGNIE, b.LIGNE, b.DATE_CREATION, b.ESCALE, b.CLASSE, b.CONTINUATION, cast(iif(bp.PARTICULARITE is null, 0, 1) as bit) as 'RUSH' FROM BAGAGE b " + "…";
+// si jointure null => renvoi 0 sinon 1 mais ce sont des int on cast donc pour convertir en booleen
+
+
